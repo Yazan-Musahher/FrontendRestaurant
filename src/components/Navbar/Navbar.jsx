@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="home"><img src={images.gericht} alt="app__logo" /></a>
+        <h1>Restaurant Booking</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Hjem</a></li>
         <li className="p__opensans"><a href="#about">Om</a></li>
         <li className="p__opensans"><a href="#menu">Meny</a></li>
-        <li className="p__opensans"><a href="#awards">Kontakt</a></li>
-        <li className="p__opensans"><a href="#contact">Bedrifter</a></li>
+        <li className="p__opensans"><a href="#contact">Kontakt</a></li>
+        <li className="p__opensans"><a href="#bedrifter">Bedrifter</a></li>
       </ul>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Log In / Registration</a>
